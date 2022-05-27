@@ -1,0 +1,9 @@
+def func(st):
+    if (st=="yes"):
+        print("shutting down")
+    elif (st=="no"):
+        print("shut down aborted")
+    else:
+        print("sorry")
+s=input("enter yes or no")
+func(s)
